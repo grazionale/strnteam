@@ -1,21 +1,25 @@
-<div class="text-center" style="background-image: url('../assets/sotran-rodape.png'); background-size: cover;">
-  <div *ngIf="showAlert" class="row justify-content-center">
-    <div class="col-md-6 mt-5">
-      <alert [type]="'sucess'" [dismissible]="true">Usuário criado com sucesso.</alert>
+<div class="row-full">
+  <div class="text-center" style="background-image: url('../assets/sotran-rodape.png'); background-size: contain; background-repeat: no-repeat; background-position: bottom;">
+    <div *ngIf="showAlert" class="row justify-content-center">
+      <div class="col-md-6 mt-5">
+        <alert [type]="'sucess'" [dismissible]="true">Usuário criado com sucesso.</alert>
+      </div>
     </div>
+    <form #formulario="ngForm" class="form-signin">
+      <img class="mb-4" src="../assets/sotran.png">
+      <h1 class="h3 mb-3 font-weight-normal">Bem Vindo! Crie seu cadastro agora mesmo!</h1>
+      <label for="inputName" class="sr-only">Nome</label>
+      <input [(ngModel)]="model.name" name="name" type="name" id="inputName" class="form-control" placeholder="Nome"
+        required autofocus>
+      <label for="inputEmail" class="sr-only">E-mail</label>
+      <input [(ngModel)]="model.email" name="email" type="email" id="inputEmail" class="form-control"
+        placeholder="E-mail" required autofocus>
+      <label for="inputPassword" class="sr-only">Senha</label>
+      <input [(ngModel)]="model.password" name="password" type="password" id="inputPassword" class="form-control"
+        placeholder="Senha" required>
+      <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login()">Cadastrar</button>
+      <a href="/login" class="btn btn-lg btn-success btn-block">Voltar</a>
+      <p class="mt-5 mb-3 text-muted">&copy; 2019</p>
+    </form>
   </div>
-  <form #formulario="ngForm" class="form-signin">
-    <img class="mb-4" src="../assets/sotran.png">
-    <h1 class="h3 mb-3 font-weight-normal">Bem Vindo! Crie seu cadastro agora mesmo!</h1>
-    <label for="inputName" class="sr-only">Nome</label>
-    <input [(ngModel)]="model.name" name="name" type="name" id="inputName" class="form-control" placeholder="Nome"
-      required autofocus>
-    <label for="inputEmail" class="sr-only">E-mail</label>
-    <input [(ngModel)]="model.email" name="email" type="email" id="inputEmail" class="form-control" placeholder="E-mail"
-      required autofocus>
-    <label for="inputPassword" class="sr-only">Senha</label>
-    <input [(ngModel)]="model.password" name="password" type="password" id="inputPassword" class="form-control"
-      placeholder="Senha" required>
-    <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="login()">Cadastrar</button>
-  </form>
 </div>
