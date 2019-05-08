@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\outroapp\outroapp\bin\Debug\netcoreapp2.1\outroapp.deps.json
+C:\Users\User\source\repos\outroapp\outroapp\bin\Debug\netcoreapp2.1\outroapp.runtimeconfig.json
+C:\Users\User\source\repos\outroapp\outroapp\bin\Debug\netcoreapp2.1\outroapp.runtimeconfig.dev.json
+C:\Users\User\source\repos\outroapp\outroapp\bin\Debug\netcoreapp2.1\outroapp.dll
+C:\Users\User\source\repos\outroapp\outroapp\bin\Debug\netcoreapp2.1\outroapp.pdb
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.RazorAssemblyInfo.cache
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.RazorAssemblyInfo.cs
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.AssemblyInfo.cs
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.RazorTargetAssemblyInfo.cache
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.dll
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.pdb
+C:\Users\User\source\repos\outroapp\outroapp\obj\Debug\netcoreapp2.1\outroapp.csprojAssemblyReference.cache
